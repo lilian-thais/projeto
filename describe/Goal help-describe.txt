@@ -1,0 +1,74 @@
+Goal help:describe
+
+Nome Completo:
+
+org.apache.maven.plugins:maven-help-plugin:2.2:describe
+
+Descrição (Goal):
+Exibe uma lista dos atributos para um Maven Plugin e / ou metas (aka Mojo - Maven Plain Old Java Object).
+Atributos:
+
+     Executa como um plugin agregador.
+     Desde a versão: 2.0.
+
+Ex: Representação na minha linha de comando
+
+[Info]
+[Info] --- maven -help- plugin: 2.2: describe (default -cli ) @ Projeto ---
+[Info] org.apache.maven.plugins : maven -ajuda -plugin : 2.2
+
+Nome: Maven Plugin Ajuda
+Descrição: O plug-in Maven Ajuda fornece as metas que visam ajudar a fazer sentir fora do ambiente de compilação. Ele inclui a capacidade de visualizar os
+arquivos eficazes POM e configurações, depois de perfis de herança e ativas têm foi aplicado, bem como uma descrição de um objetivo particular plugin para dar uso
+informações .
+ID do grupo : org.apache.maven.plugins
+Id Artefato: maven -help -plugin
+Version: 2.2
+Objetivo Prefixo : help
+
+Este plugin tem 9 gols :
+
+Ajuda: perfis ativos
+  Descrição: Exibe uma lista dos perfis que estão atualmente ativos para esta compilação.
+
+ajuda: todos os perfis
+  Descrição: Exibe uma lista de perfis disponíveis no âmbito do actual projeto.
+    Nota: ele irá listar todos os perfis para um projeto. Se um perfil vem com um inativo estado então pode haver a necessidade de ligar a ativação de perfil
+    interruptores / propriedade.
+
+ajuda: descrever
+  Descrição: Exibe uma lista dos atributos para um Maven Plugin e / ou
+    metas ( aka Mojo - Maven Plain Old Java Object) .
+
+ajuda: efetiva -pom
+  Descrição: Exibe o POM eficaz como um XML para esta compilação , com o perfis ativos tomada dentro
+
+Ajuda: efetiva -settings
+  Descrição: Exibe as configurações calculadas como XML para este projeto, dado qualquer acessório perfil e a herança das configurações globais
+    para as configurações de nível de usuário .
+
+ajuda: avaliar
+  Descrição: Avalia expressões Maven dadas pelo usuário em um modo interativo.
+
+ajuda: expressões
+  Descrição: Exibe as expressões Plugin suportados utilizados pelo Maven .
+
+ajuda: ajuda
+  Descrição: Exibir informações de ajuda sobre maven -help- plugin.
+    Chame mvn ajuda: help- Ddetail = true - Dgoal = <goal-name> para exibir parâmetro
+    detalhes .
+
+ajuda: sistema
+  Descrição: Exibe uma lista dos elementos de plataforma , como propriedades do sistema
+    e variáveis de ambiente .
+
+Para mais informações , execute ' ajuda mvn : descrever [ ...]- Ddetail '
+
+[ INFO] ----------------------------------------------- -------------------------
+[ INFO] construir o sucesso
+[ INFO] ----------------------------------------------- -------------------------
+[ INFO] O tempo total : 2.874s
+[ INFO] Terminado em: Seg 17 de fevereiro 04:11:27 BRT 2014
+[ INFO] Memória final: 5M/15M
+[ INFO] ----------------------------------------------- -------------------------
+lilian @ lilian - VirtualBox : ~ / Projeto $

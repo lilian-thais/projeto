@@ -1,0 +1,43 @@
+Goal help:active-profiles 
+
+active-profiles tem como objetivo ser usado para descobrir quais perfis foram aplicados aos projetos atualmente sendo construídos.
+Para cada projeto na sessão de criação, ele irá imprimir uma lista de perfis que foram aplicadas a esse projeto, junto com a fonte do perfil (POM, settings.xml ou profiles.xml).
+
+Você pode executar esse objetivo usando o seguinte comando:
+
+# mvn help:active-profiles
+
+Nome completo:
+org.apache.maven.plugins: maven-ajuda-plugin: 2.2: active-profiles
+Descrição:
+Exibe uma lista dos perfis que estão atualmente ativos para esta compilação.
+
+Ex: Representação na minha linha de comando
+
+[ INFO] Edifício Projeto 1.0 -SNAPSHOT
+[ INFO] ----------------------------------------------- -------------------------
+[Info]
+[Info] --- maven -help- plugin: 2.2: active-profiles (default -cli ) @ Projeto ---
+[Info]
+Perfis de ativos para Projeto ' plugin.help : Projeto : jar :1.0 -SNAPSHOT ':
+
+Os seguintes perfis são ativos :
+
+
+
+
+[ INFO] ----------------------------------------------- -------------------------
+[ INFO] construir o sucesso
+[ INFO] ----------------------------------------------- -------------------------
+[ INFO] O tempo total : 2.839s
+[ INFO] Terminado em: Seg 17 de fevereiro 04:01:13 BRT 2014
+[ INFO] Memória final: 5M/15M
+[ INFO] ----------------------------------------------- -------------------------
+lilian @ lilian - VirtualBox : ~ / Projeto $
+
+
+Atributos:
+
+     Requer um projeto Maven a ser executado.
+     Executa como um plugin agregador.
+     Desde a versão: 2.0.

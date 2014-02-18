@@ -1,0 +1,146 @@
+Goal help:system
+
+O objetivo do sistema é utilizado para visualizar as informações do sistema, como as propriedades do sistema e variáveis ??de ambiente.
+
+Você pode executar esse objetivo usando o seguinte comando:
+
+# mvn help:system
+
+help:system
+Nome completo:
+org.apache.maven.plugins: maven-help-plugin: 2.2: system
+Descrição (Goals):
+Exibe uma lista dos elementos de plataforma, como propriedades do sistema e variáveis de ambiente.
+
+Ex:Representação na minha linha de comando
+
+
+[Info] --- maven -help- plugin: 2.2: sistema (default -cli ) @ Projeto ---
+[Info]
+================================================== =============================
+========================= Propriedades Plataforma Detalhes =====================
+================================================== =============================
+
+================================================== =============================
+Propriedades do Sistema
+================================================== =============================
+
+java.runtime.name = OpenJDK Runtime Environment
+sun.boot.library.path = / usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386
+java.vm.version = 24.45 - b08
+java.vm.vendor = Oracle Corporation
+java.vendor.url = http://java.oracle.com/
+guice.disable.misplaced.annotation.check = true
+path.separator = :
+java.vm.name = OpenJDK Cliente VM
+file.encoding.pkg = sun.io
+user.country = BR
+sun.java.launcher = SUN_STANDARD
+sun.os.patch.level = desconhecido
+java.vm.specification.name = Java Virtual Machine Specification
+user.dir = / home / lilian / Projeto
+java.runtime.version = 1.7.0_51 - b00
+java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+java.endorsed.dirs = / usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed
+os.arch = i386
+java.io.tmpdir = / tmp
+line.separator =
+
+java.vm.specification.vendor = Oracle Corporation
+os.name = Linux
+classworlds.conf = / usr/share/maven/bin/m2.conf
+sun.jnu.encoding = UTF-8
+java.library.path=/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+java.specification.name = Java Platform Especificação API
+java.class.version = 51,0
+sun.management.compiler = HotSpot Cliente Compiler
+os.version = 3.8.0 -35 -generic
+user.home = / home / lilian
+user.timezone = America / Recife
+java.awt.printerjob = sun.print.PSPrinterJob
+file.encoding = UTF-8
+java.specification.version = 1,7
+java.class.path = / usr/share/maven/boot/plexus-classworlds-2.x.jar
+user.name = lilian
+java.vm.specification.version = 1,7
+sun.java.command = org.codehaus.plexus.classworlds.launcher.Launcher ajuda: sistema
+java.home = / usr/lib/jvm/java-7-openjdk-i386/jre
+sun.arch.data.model = 32
+user.language = pt
+java.specification.vendor = Oracle Corporation
+awt.toolkit = sun.awt.X11.XToolkit
+java.vm.info = modo misto , a partilha
+java.version = 1.7.0_51
+securerandom.source = file :/ dev / . / urandom
+java.ext.dirs = / usr/lib/jvm/java-7-openjdk-i386/jre/lib/ext :/ usr / java / packages / lib / ext
+sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes
+java.vendor = Oracle Corporation
+maven.home = / usr / share / maven
+File.separator = /
+java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding = UnicodeLittle
+sun.cpu.endian = pouco
+sun.desktop = gnome
+sun.cpu.isalist =
+
+================================================== =============================
+Variáveis de Ambiente
+================================================== =============================
+
+COMPIZ_CONFIG_PROFILE = ubuntu
+DISPLAY = : 0
+SSH_AUTH_SOCK = / run/user/lilian/keyring-acweX7/ssh
+UBUNTU_MENUPROXY = libappmenu.so
+LESSOPEN = | / usr / bin / lesspipe % s
+XDG_RUNTIME_DIR = / run / user / lilian
+PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+LOGNAME = lilian
+SHLVL = 1
+COLORTERM = gnome-terminal
+MANDATORY_PATH = / usr / share / gconf / ubuntu.mandatory.path
+XAUTHORITY = / home / lilian / .Xauthority
+DESKTOP_SESSION = ubuntu
+SHELL = / bin / bash
+DEFAULTS_PATH = / usr / share / gconf / ubuntu.default.path
+XDG_SESSION_PATH = / org/freedesktop/DisplayManager/Session0
+GNOME_DESKTOP_SESSION_ID = this -is- deprecated
+TEXTDOMAINDIR = / usr / share / locale /
+XDG_CONFIG_DIRS = / etc / xdg / xdg- ubuntu :/ etc / xdg
+LANGUAGE = pt_BR : pt : en
+SESSION_MANAGER=local/lilian-VirtualBox:@/tmp/.ICE-unix/1604,unix/lilian-VirtualBox:/tmp/.ICE-unix/1604
+WINDOWID = 44040197
+COMPIZ_BIN_PATH = / usr / bin /
+LANG = pt_BR.UTF -8
+XDG_SEAT_PATH = / org/freedesktop/DisplayManager/Seat0
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+XDG_CURRENT_DESKTOP = Unity
+OLDPWD = / home / lilian / Projeto
+GPG_AGENT_INFO = / run/user/lilian/keyring-acweX7/gpg : 00:01
+HOME = / home / lilian
+GNOME_KEYRING_PID = 1593
+DBUS_SESSION_BUS_ADDRESS = unix : abstract = / tmp/dbus-ANv7iXXlI4 , guid = 455b3cb2ff6b288d8a81586753016055
+PWD = / home / lilian / Projeto
+XDG_SESSION_COOKIE = 722c40d533a1f6cd3ce5915452a9e1b5 - 1392599123,834569-272113633
+XDG_DATA_DIRS = / usr / share / ubuntu :/ usr / share / gnome :/ usr / local / share / :/ usr / share /
+LESSCLOSE = / usr / bin / lesspipe % s % s
+TEXTDOMAIN = im -config
+GDMSESSION = ubuntu
+GTK_MODULES = sobreposição - barra de rolagem
+USER = lilian
+JAVA_HOME = / usr/lib/jvm/java-7-openjdk-i386
+TERM = xterm
+GNOME_KEYRING_CONTROL = / run/user/lilian/keyring-acweX7
+SSH_AGENT_PID = 1650
+_ = / usr / bin / mvn
+
+[ INFO] ----------------------------------------------- -------------------------
+[ INFO] construir o sucesso
+[ INFO] ----------------------------------------------- -------------------------
+[ INFO] O tempo total : 2.651s
+[ INFO] Terminado em: Seg 17 de fevereiro 03:16:54 BRT 2014
+[ INFO] Memória final: 4M/15M
+[ INFO] ----------------------------------------------- -------------------------
+lilian @ lilian - VirtualBox : ~ / Projeto $
+
+Atributos:
+Desde a versão 2.1.

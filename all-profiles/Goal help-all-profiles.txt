@@ -1,0 +1,38 @@
+Goal help:all-profiles
+
+O objetivo do all-profiles é que ele é usado para descobrir todos os perfis disponíveis no âmbito do projeto atual.
+
+Você pode executar esse objetivo usando o seguinte comando:
+
+# mvn help:all-profiles
+
+Nome completo:
+org.apache.maven.plugins: maven-ajuda-plugin: 2.2:all-profiles
+
+Descrição:
+Exibe uma lista de perfis disponíveis no âmbito do projeto atual.
+Nota: ele irá listar todos os perfis para um projeto. Se um perfil vem com um estado inativo, em seguida, 
+pode haver a necessidade de se definir o perfil interruptores de ativação / propriedade.
+
+Atributos:
+
+     Desde a versão 2.1.
+
+
+Ex: Representação na minha linha de comando
+
+Edifício Projeto 1.0-SNAPSHOT
+[INFO] ----------------------------------------------- -------------------------
+[Info]
+[Info] --- maven-help-plugin: 2.2: todos os perfis (default-cli) @ Projeto ---
+[AVISO] Nenhum perfil detectado!
+[Info] Perfis Listagem para projeto: plugin.help: Projeto: jar :1.0-snapshot
+
+[INFO] ----------------------------------------------- -------------------------
+[INFO] construir o sucesso
+[INFO] ----------------------------------------------- -------------------------
+[INFO] O tempo total: 1.309s
+[INFO] Terminado em: Seg 17 de fevereiro 04:05:38 BRT 2014
+[INFO] Memória final: 4M/15M
+[INFO] ----------------------------------------------- -------------------------
+lilian @ lilian-VirtualBox: ~ / Projeto $
